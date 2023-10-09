@@ -4,8 +4,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CurrencyConverterController;
 
-Route::get('/convert', 'CurrencyConverterController@convert');
+//Route::get('/convert', 'CurrencyConverterController@convert');
 
+Route::get('/convert', 'App\Http\Controllers\CurrencyConverterController@convert');
 /*
 |--------------------------------------------------------------------------
 | API Routes
